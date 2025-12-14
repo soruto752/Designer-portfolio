@@ -1,0 +1,36 @@
+body {
+  background-color: lightyellow;
+}
+
+.nav-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-title {
+  font-style: bold;
+  color: darkblue;
+  text-decoration: none;
+  align-items: end;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  color: darkblue;
+  font-size: x-small;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  gap: 6px;
+}
