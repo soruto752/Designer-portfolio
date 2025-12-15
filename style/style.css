@@ -40,6 +40,10 @@ body {
   flex-direction: row;
 }
 
+#home-image {
+  width: 100px;
+}
+
 .introduction-title {
   color: darkblue;
   font-size: small;
