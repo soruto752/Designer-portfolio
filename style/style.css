@@ -9,7 +9,7 @@ body {
 }
 
 .nav-title {
-  font-style: bold;
+  font-weight: bold;
   color: darkblue;
   text-decoration: none;
   align-items: end;
@@ -33,4 +33,32 @@ body {
   display: flex;
   list-style-type: none;
   gap: 6px;
+}
+
+.home-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.introduction-title {
+  color: darkblue;
+  font-size: small;
+}
+
+.job-title {
+  font-weight: bold;
+  color: darkblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.made-country {
+  font-weight: small;
+  color: darkblue;
+}
+
+.resume-button {
+  background-color: yellow;
+  color: black;
+  width: 10px;
 }
