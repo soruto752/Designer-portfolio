@@ -42,11 +42,6 @@ body {
   justify-content: space-between;
 }
 
-.image-div {
-  display: flex;
-  flex-direction: row;
-}
-
 #home-image {
   width: 493px;
   height: 532px;
