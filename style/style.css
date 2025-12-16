@@ -42,10 +42,15 @@ body {
   align-items: center;
 }
 
-#home-image {
-  width: 493px;
+.image-div {
   display: flex;
   flex-direction: row;
+}
+
+#home-image {
+  width: 493px;
+  height: 532px;
+  padding: 19px;
 }
 
 .introduction-title {
