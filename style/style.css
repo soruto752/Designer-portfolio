@@ -42,6 +42,8 @@ body {
 
 #home-image {
   width: 100px;
+  display: flex;
+  flex-direction: row;
 }
 
 .introduction-title {
@@ -64,5 +66,5 @@ body {
 .resume-button {
   background-color: yellow;
   color: black;
-  width: 10px;
+  width: 55px;
 }
