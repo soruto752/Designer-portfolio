@@ -38,10 +38,12 @@ body {
 .home-section {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #home-image {
-  width: 100px;
+  width: 493px;
   display: flex;
   flex-direction: row;
 }
