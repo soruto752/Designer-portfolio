@@ -23,7 +23,6 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 276px;
 }
 
 .navbar ul li a {
@@ -33,7 +32,7 @@ body {
 .navbar ul {
   display: flex;
   list-style-type: none;
-  gap: 6px;
+  gap: 20px;
 }
 
 .home-section {
@@ -44,29 +43,29 @@ body {
 }
 
 #home-image {
-  width: 493px;
-  height: 532px;
+  width: 400px;
+  height: 432px;
   padding: 19px;
 }
 
-.introduction-title {
+#introduction-title {
   color: darkblue;
   font-size: small;
 }
 
-.job-title {
+#job-title {
   font-weight: bold;
   color: darkblue;
   display: flex;
   flex-direction: column;
 }
 
-.made-country {
+#made-country {
   font-weight: small;
   color: darkblue;
 }
 
-.resume-button {
+#resume-button {
   background-color: yellow;
   color: black;
   width: 55px;
