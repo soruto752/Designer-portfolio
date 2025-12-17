@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav-title {
@@ -16,13 +17,12 @@ body {
 }
 
 .navbar {
-  display: flex;
-  flex-direction: column;
   color: darkblue;
   font-size: x-small;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
 .navbar ul li a {
@@ -32,38 +32,40 @@ body {
 .navbar ul {
   display: flex;
   list-style-type: none;
-  gap: 6px;
+  gap: 20px;
 }
 
 .home-section {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #home-image {
-  width: 100px;
-  display: flex;
-  flex-direction: row;
+  width: 400px;
+  height: 432px;
+  padding: 19px;
 }
 
-.introduction-title {
+#introduction-title {
   color: darkblue;
   font-size: small;
 }
 
-.job-title {
+#job-title {
   font-weight: bold;
   color: darkblue;
   display: flex;
   flex-direction: column;
 }
 
-.made-country {
+#made-country {
   font-weight: small;
   color: darkblue;
 }
 
-.resume-button {
+#resume-button {
   background-color: yellow;
   color: black;
   width: 55px;
