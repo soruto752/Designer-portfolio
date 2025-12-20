@@ -85,3 +85,8 @@ body {
 .intro-div {
   margin: 30px;
 }
+
+.main-div {
+  display: flex;
+  margin-bottom: 30px;
+}
