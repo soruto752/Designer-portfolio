@@ -143,3 +143,25 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+@media only screen and (max-width: 500px) {
+  /* mobile phones */
+  .navbar {
+    width: 100%;
+  }
+
+  .home-section {
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  /* for tablet*/
+  .navbar {
+    width: 100%;
+  }
+}
